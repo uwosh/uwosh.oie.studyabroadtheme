@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='uwosh.oie.studyabroadtheme',
-    version='1.0',
+    version='1.0.1.dev0',
     description="Plone theme for UW Oshkosh Office of International Education",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
