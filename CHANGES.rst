@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.0a1 (unreleased)
-------------------
+1.0 (2019-01-09)
+----------------
 
 - Initial release.
-  [tkimnguyen]
+  [robzonenet, tkimnguyen]
