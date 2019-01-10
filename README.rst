@@ -11,28 +11,8 @@ Plone 5 theme for UW Oshkosh Office of International Education
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+- Matches existing site
+- Responsive
 
 
 Installation
@@ -54,16 +34,14 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/uwosh.oie.studyabroadtheme/issues
-- Source Code: https://github.com/collective/uwosh.oie.studyabroadtheme
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/uwosh/uwosh.oie.studyabroadtheme/issues
+- Source Code: https://github.com/uwosh/uwosh.oie.studyabroadtheme
 
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+If you are having issues, please let us know via the issue tracker.
 
 
 License
