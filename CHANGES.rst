@@ -5,7 +5,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- adjust global_statusmessage placement
+  [tkimnguyen]
 
 
 1.0 (2019-01-09)
