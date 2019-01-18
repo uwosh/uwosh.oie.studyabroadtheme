@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.1 (unreleased)
+1.0.1 (2019-01-18)
 ------------------
 
 - adjust global_statusmessage placement
