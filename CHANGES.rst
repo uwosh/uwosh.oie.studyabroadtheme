@@ -5,7 +5,8 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- fix linked file name
+  [tkimnguyen]
 
 
 1.0.2 (2019-01-18)
