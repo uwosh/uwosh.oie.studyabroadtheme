@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.3 (unreleased)
+1.0.3 (2019-02-19)
 ------------------
 
 - fix linked file name
