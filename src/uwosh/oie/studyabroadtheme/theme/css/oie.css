@@ -172,7 +172,7 @@ width: 100%; }
 #portal-columns {
 background-color: white; }
 #portal-header {
-z-index: auto; 
+z-index: auto;
     margin: 0;
     position: relative;
 }
@@ -331,7 +331,7 @@ width: 12px;
 height: 12px;
 border: none;
 background-color: transparent;
-background-image: url("img/magGlass.png");
+background-image: url("../img/magGlass.png");
 background-repeat: no-repeat;
 background-position: center;
 text-indent: -999999px;
@@ -431,7 +431,7 @@ font-style: italic;
 font-family: serif;}
 #portal-breadcrumbs a {
 padding-right: 15px;
-background-image: URL("breadcrumbArrows.png");
+/* background-image: URL("breadcrumbArrows.png"); image missing */
 background-position: center right;
 background-repeat: no-repeat;
 color: darkgrey;}
@@ -454,7 +454,7 @@ color: #4f4f4f;}
 display: inline-block;
 width: 10px;
 height: 10px;
-background-image: URL("breadcrumbArrows.png");
+/* background-image: URL("breadcrumbArrows.png"); image missing */
 background-position: center center;
 background-repeat: no-repeat;
 content: '';}
