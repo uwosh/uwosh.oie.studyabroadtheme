@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.4 (unreleased)
+1.0.4 (2019-07-08)
 ------------------
 
 - Fix angular undefined, jq undefined, 404 (file path)
