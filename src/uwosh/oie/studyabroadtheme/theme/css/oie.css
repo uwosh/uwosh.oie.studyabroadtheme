@@ -210,9 +210,6 @@
     margin-bottom: 1.375em;
     text-align: center !important;
   }
-  /*div#logo {*/
-  /*margin-left: -970px; }*/
-  /* */
   .template-choose-timeslot-view-extended #content ul li:first-child {
     margin: 20px 0px;
     list-style-type: none;
@@ -1492,6 +1489,23 @@
   .section-front-page .documentFirstHeading {
     display: none;
   }
+
+  /*/programs/discover*/
+  .oie-search-field {
+    margin: 10px;
+    width: 100%;
+  }
+  .search-program-image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .search-program-view {
+    min-height: 180px;
+  }
+  .clear-button {
+    float: right;
+  }
+
 
   @media screen and (max-width: 1199px) {
     #header {

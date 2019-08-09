@@ -5,7 +5,7 @@ Changelog
 1.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- format oie.css, add some program search styling.
 
 
 1.0.4 (2019-07-08)
