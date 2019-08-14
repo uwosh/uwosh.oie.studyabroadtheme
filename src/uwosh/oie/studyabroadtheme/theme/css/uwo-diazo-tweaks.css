@@ -52,8 +52,11 @@ UPCOMING EVENTS PORTLET
   display: none;
 }
 
-#visual-portal-wrapper {
-  width: auto;
+#oie-wrapper {
+  min-height: 100vh;
+  display: block;
+  position: relative;
+  padding-bottom: 230px;
 }
 
 .uppercase {
@@ -267,13 +270,6 @@ h6 {
 }
 .portlet-static-contact-us h4 {
   font-weight: 400;
-}
-#portlets-footer {
-  font-size: 16px;
-}
-.section-office-of-international-education #portlets-footer-wrapper {
-  padding-top: 32px;
-  background-color: #ededed;
 }
 @media screen and (max-width: 977px) {
   #portal-column-content {
@@ -536,8 +532,11 @@ ul li#titanServicesLink.titan_servicesNav {
   margin-top: 0;
   margin-bottom: 0;
 }
-#portal-footer-wrapper {
+#portlets-footer-wrapper {
   background-color: #444;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 #uwoshFooter-wrapper {
   background-color: #b0b0b0;

@@ -2,6 +2,8 @@
 @media all {
   /* https://www.uwosh.edu/oie/portal_css/ploneCustom.css?original=1 */
   body {
+    height: 100%;
+    position: relative;
     font-family: "Droid Sans", Arial, Verdana, sans-serif;
     background-color: white;
     background-color: white;
@@ -9,9 +11,6 @@
     background-repeat: repeat-x;
     background-position: left 5px;
     background-position: left 23px;
-  }
-
-  #visual-portal-wrapper {
   }
   #logo img {
     max-width: auto !important;
