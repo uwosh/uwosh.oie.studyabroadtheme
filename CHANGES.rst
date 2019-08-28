@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.5 (unreleased)
+1.0.5 (2019-08-28)
 ------------------
 
 - format oie.css, add some program search styling.
