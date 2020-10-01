@@ -221,8 +221,8 @@
       $("#top_level_navigation").remove();
         setTimeout(()=>$("i.glyphicon").remove(), 800);
       
-      jq("body").prepend('<div id="top_level_navigation"></div>');
-      jq("#top_level_navigation").html(navHtml);
+      $("body").prepend('<div id="top_level_navigation"></div>');
+      $("#top_level_navigation").html(navHtml);
     </script>
     <script type="text/javascript">
       function toggleSearch(){
