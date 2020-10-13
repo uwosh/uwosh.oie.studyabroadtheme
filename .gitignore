@@ -4,6 +4,7 @@
 *.mo
 *.py?
 *.swp
+pyvenv.cfg
 # dirs
 bin/
 buildout-cache/
@@ -33,3 +34,4 @@ report.html
 !.gitkeep
 !.travis.yml
 !src/uwosh
+node_modules
