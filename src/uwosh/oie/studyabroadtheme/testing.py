@@ -6,6 +6,7 @@ from plone.app.testing import FunctionalTesting
 from plone.app.testing import IntegrationTesting
 from plone.app.testing import PloneSandboxLayer
 from plone.testing.z2 import ZSERVER_FIXTURE
+
 import uwosh.oie.studyabroadtheme
 
 
@@ -44,5 +45,5 @@ UWOSH_OIE_STUDYABROADTHEME_ACCEPTANCE_TESTING = FunctionalTesting(
         REMOTE_LIBRARY_BUNDLE_FIXTURE,
         ZSERVER_FIXTURE,
     ),
-    name='UwoshOieStudyabroadthemeLayer:AcceptanceTesting'
+    name='UwoshOieStudyabroadthemeLayer:AcceptanceTesting',
 )

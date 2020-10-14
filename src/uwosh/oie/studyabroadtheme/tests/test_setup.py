@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
 """Setup tests for this package."""
+from plone.browserlayer import utils
 from Products.CMFPlone.utils import get_installer
-from uwosh.oie.studyabroadtheme.testing import UWOSH_OIE_STUDYABROADTHEME_INTEGRATION_TESTING  # noqa
+from uwosh.oie.studyabroadtheme.testing import UWOSH_OIE_STUDYABROADTHEME_INTEGRATION_TESTING as testing_layer  # noqa
+
 import unittest
 
 
 class TestSetup(unittest.TestCase):
     """Test that uwosh.oie.studyabroadtheme is properly installed."""
 
-    layer = UWOSH_OIE_STUDYABROADTHEME_INTEGRATION_TESTING
+    layer = testing_layer
 
     def setUp(self):
         """Custom shared utility setup for tests."""
@@ -22,9 +24,8 @@ class TestSetup(unittest.TestCase):
 
     def test_browserlayer(self):
         """Test that IUwoshOieStudyabroadthemeLayer is registered."""
-        from uwosh.oie.studyabroadtheme.interfaces import (
+        from uwosh.oie.studyabroadtheme.interfaces import (  # isort:skip
             IUwoshOieStudyabroadthemeLayer)
-        from plone.browserlayer import utils
         self.assertIn(
             IUwoshOieStudyabroadthemeLayer,
             utils.registered_layers(),
@@ -33,7 +34,7 @@ class TestSetup(unittest.TestCase):
 
 class TestUninstall(unittest.TestCase):
 
-    layer = UWOSH_OIE_STUDYABROADTHEME_INTEGRATION_TESTING
+    layer = testing_layer
 
     def setUp(self):
         self.portal = self.layer['portal']
@@ -47,9 +48,8 @@ class TestUninstall(unittest.TestCase):
 
     def test_browserlayer_removed(self):
         """Test that IUwoshOieStudyabroadthemeLayer is removed."""
-        from uwosh.oie.studyabroadtheme.interfaces import \
-            IUwoshOieStudyabroadthemeLayer
-        from plone.browserlayer import utils
+        from uwosh.oie.studyabroadtheme.interfaces import (  # isort:skip
+            IUwoshOieStudyabroadthemeLayer)
         self.assertNotIn(
             IUwoshOieStudyabroadthemeLayer,
             utils.registered_layers(),
