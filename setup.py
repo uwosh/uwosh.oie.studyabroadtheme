@@ -29,8 +29,8 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords='Python Plone',
-    author='T. Kim Nguyen',
-    author_email='kim.nguyen@wildcardcorp.com',
+    author='Wildcard Corp.',
+    author_email='corporate@wildcardcorp.com',
     url='https://pypi.python.org/pypi/uwosh.oie.studyabroadtheme',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
@@ -40,7 +40,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'plone.api',
-        'Products.GenericSetup>=1.8.2',
+        'Products.GenericSetup',
         'setuptools',
         'z3c.jbot',
         'plone.app.theming',
@@ -48,15 +48,16 @@ setup(
     ],
     extras_require={
         'test': [
+            'collective.xmltestreport',
             'plone.app.testing',
             # Plone KGS does not use this version, because it would break
             # Remove if your package shall be part of coredev.
             # plone_coredev tests as of 2016-04-01.
-            'plone.testing',
             'plone.app.contenttypes',
             'plone.app.robotframework[debug]',
         ],
     },
+    setup_requires=['isort', 'flake8'],
     entry_points="""
     [z3c.autoinclude.plugin]
     target = plone
