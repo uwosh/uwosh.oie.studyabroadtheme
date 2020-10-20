@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - setuptools and Travis fixes
+- py3 fixes
 
 
 1.0.5 (2019-08-28)
