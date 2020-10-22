@@ -34,6 +34,7 @@
 
   <!-- move global nav -->
   <replace css:theme-children="#mainnavigation" css:content-children="#portal-mainnavigation" method="raw" />
+  <replace css:theme-children="#portal-globalnav" css:content-children="#portal-globalnav" />
 
   <!-- move hero to top -->
   <replace css:theme-children="#hero .gigantic" css:content-children=".hero"/>
