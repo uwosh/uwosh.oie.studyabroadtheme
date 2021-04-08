@@ -1,7 +1,7 @@
 """Setup tests for this package."""
 from plone.browserlayer import utils
 from Products.CMFPlone.utils import get_installer
-from uwosh.oie.studyabroadtheme.testing import UWOSH_OIE_STUDYABROADTHEME_INTEGRATION_TESTING as testing_layer  # noqa
+from uwosh.oie.studyabroadtheme.testing import UWOSH_OIE_STUDYABROADTHEME_INTEGRATION_TESTING as testing_layer
 
 import unittest
 
@@ -23,8 +23,7 @@ class TestSetup(unittest.TestCase):
 
     def test_browserlayer(self):
         """Test that IUwoshOieStudyabroadthemeLayer is registered."""
-        from uwosh.oie.studyabroadtheme.interfaces import (  # isort:skip
-            IUwoshOieStudyabroadthemeLayer)
+        from uwosh.oie.studyabroadtheme.interfaces import IUwoshOieStudyabroadthemeLayer
         self.assertIn(
             IUwoshOieStudyabroadthemeLayer,
             utils.registered_layers(),
@@ -47,8 +46,7 @@ class TestUninstall(unittest.TestCase):
 
     def test_browserlayer_removed(self):
         """Test that IUwoshOieStudyabroadthemeLayer is removed."""
-        from uwosh.oie.studyabroadtheme.interfaces import (  # isort:skip
-            IUwoshOieStudyabroadthemeLayer)
+        from uwosh.oie.studyabroadtheme.interfaces import IUwoshOieStudyabroadthemeLayer
         self.assertNotIn(
             IUwoshOieStudyabroadthemeLayer,
             utils.registered_layers(),
