@@ -1784,9 +1784,15 @@ td.datagridwidget-block-edit-cell {
   font-family: 'Open Sans', Arial, sans-serif;
   color: white;
 }
+
+#formfield-form-widgets-eligibility_requirement .option label{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 #formfield-form-widgets-eligibility_requirement .option label .label {
-max-width: 100%;
-display: inline-block;
-overflow: scroll;
-white-space: nowrap;
+  white-space:normal;
+  font-size: inherit;
+  text-align: justify;
+  line-height: normal;
 }
