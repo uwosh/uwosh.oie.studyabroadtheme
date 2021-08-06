@@ -5,7 +5,8 @@ Changelog
 1.0.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- ZMI fixes in index.html and rules.xml
+- styling changes for overflowing field labels
 
 
 1.0.6 (2020-10-20)
