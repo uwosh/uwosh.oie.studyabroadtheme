@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.7 (unreleased)
+1.1.0 (2021-08-06)
 ------------------
 
 - ZMI fixes in index.html and rules.xml
