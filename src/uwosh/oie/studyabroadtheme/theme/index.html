@@ -24,7 +24,7 @@
 				</a>
 			</div>
     </div>
-    
+
   <nav class="duncan-navbar" id="top-navbar" role="navigation">
     <div id="normal-links">
       <a href="http://www.uwosh.edu/about-uw-oshkosh" id="aboutToggle" class="aboutLink">About</a>
@@ -35,7 +35,7 @@
       <a href="http://www.uwosh.edu/administration" id="administrationToggle" class="administrationLink">Administration</a>
       <a href="http://www.uwosh.edu/resources" id="resourcesToggle" class="resourcesLink">Resources</a>
       <a href="http://www.uwosh.edu/calendars" id="calendarsToggle" class="calendarsLink">Calendars</a>
-      <a href="#" id="titanServicesToggle" onclick="toggleDropdown()">Titan Services 
+      <a href="#" id="titanServicesToggle" onclick="toggleDropdown()">Titan Services
         <i class="fa fa-angle-down titan-services-toggle"></i>
         <i class="fa fa-angle-up titan-services-toggle hidden"></i>
       </a>
@@ -61,13 +61,12 @@
     <div id="duncan-header">
       <div id="header-logo" >
         <a id="portal-logo" title="Home" accesskey="1" href="http://www.uwosh.edu">
-          <!-- <img src="https://uwosh.edu/it/wp-content/themes/uw-oshkosh-divi/assets/images/lettermark-osh.svg" alt="University of Wisconsin Oshkosh wordmark" id="logo" data-actual-width="237" data-actual-height="150"> -->
           <img src="img/lettermark-osh.svg" alt="Office of International Education" title="Office of International Education" class="oie-logo">
         </a>
       </div>
 
 
-        
+
         <nav id="quicklinks">
             <a href="https://uwosh.edu/it/office-365-project/email-redirect/">Email</a>
             <a href="https://uwosh.edu/library">Libraries</a>
@@ -113,7 +112,7 @@
           <a href="/asie/" class="mobile-menu-text">Diversity</a>
           <a href="/calendars" class="mobile-menu-text">Calendars</a>
           <a href="/titan-services" class="mobile-submenu-heading mobile-menu-text">Titan Services</a>
-              
+
           <a href="/site-index" class="mobile-submenu mobile-menu-text">Site Index</a>
           <a href="https://www.uwosh.edu/directory/" class="mobile-submenu mobile-menu-text">Directory</a>
           <a href="/registrar/titanweb/" class="mobile-submenu mobile-menu-text">Titan Web</a>
@@ -130,10 +129,10 @@
           <a href="https://uwosh.academicworks.com/" class="mobile-submenu mobile-menu-text">Academic Works</a>
         </nav>
       </div>
-   
+
     <h5 class="hiddenStructure">Sections</h5>
        <div class="nav-primary">
-         <ul id="portal-globalnav"><li><a href="#">Global Nav</a></li></ul>
+         <ul id="portal-globalnav"><li><a>Global Nav</a></li></ul>
        </div>
     <div class="container">
       <div id="portal-columns" class="row">
@@ -220,7 +219,7 @@
       var navHtml = $("#top_level_navigation").html();
       $("#top_level_navigation").remove();
         setTimeout(()=>$("i.glyphicon").remove(), 800);
-      
+
       $("body").prepend('<div id="top_level_navigation"></div>');
       $("#top_level_navigation").html(navHtml);
     </script>
@@ -241,6 +240,5 @@
             <script type="text/javascript" src="js/angular-sanitize.min.js"></script>
             <script type="text/javascript" src="js/plone-rwd-nav.js"></script>
           </body>
-          
+
           </html>
-          

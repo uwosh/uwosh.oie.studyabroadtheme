@@ -20,7 +20,7 @@
     <drop css:content="head link[rel='apple-touch-icon']" />
     <drop css:content="head link[rel='shortcut icon']" />
     <!-- CSS -->
-    <!--<before theme-children="/html/head" content="/html/head/link" />-->
+    <!-- <before theme-children="/html/head" content="/html/head/link" /> -->
     <!-- Script -->
     <!--<before theme-children="/html/head" content="/html/head/script" />-->
     <before css:theme-children="html head" content="/html/head/link | /html/head/style | /html/head/meta | /html/head/script" />
@@ -46,7 +46,7 @@
 
 
 
-  
+
 
   <!-- XXX Only show breadcrumbs on non-homepage -->
   <replace css:theme="#above-content" css:content="#viewlet-above-content"
@@ -98,5 +98,5 @@
        So this needs tweaking if we want to use yet. -->
   <!--<replace css:theme="#portal-top" css:content-children="#portal-top" />-->
   <replace css:theme-children="#portal-footer" css:content-children="#portal-footer-wrapper" />
-  
+
 </rules>

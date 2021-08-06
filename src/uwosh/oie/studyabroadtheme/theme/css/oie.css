@@ -168,7 +168,7 @@
     background-repeat: no-repeat;
     content: '';
   }
-  /* 
+  /*
   ul#titanServicesLinks {
     position: absolute;
     top: 25px;
@@ -1783,4 +1783,34 @@ td.datagridwidget-block-edit-cell {
 .emergency-banner-wrapper.info a {
   font-family: 'Open Sans', Arial, sans-serif;
   color: white;
+}
+
+
+.datagridwidget-table-view-block .pattern-pickadate-wrapper thead {
+  display: table-header-group;
+}
+
+#formfield-form-widgets-eligibility_requirement .option label,
+#formfield-form-widgets-studentStatus .option label,
+#formfield-form-widgets-seatAssignmentProtocol .option label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+#formfield-form-widgets-eligibility_requirement .option label .label,
+#formfield-form-widgets-studentStatus .option label .label,
+#formfield-form-widgets-seatAssignmentProtocol .option label .label{
+  white-space:normal;
+  font-size: inherit;
+  font-weight: normal;
+  text-align: justify;
+  line-height: normal;
+}
+.option label .required[type="radio"]::after {
+  content: none;
+}
+
+.option label [type="radio"] {
+margin: 0;
 }
