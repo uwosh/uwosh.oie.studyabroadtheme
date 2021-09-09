@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.2 (unreleased)
+1.1.2 (2021-09-09)
 ------------------
 
 - z-index tweak.
