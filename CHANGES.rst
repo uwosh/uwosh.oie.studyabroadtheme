@@ -5,7 +5,7 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- z-index tweak.
 
 
 1.1.1 (2021-09-09)
