@@ -5,7 +5,10 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- rip unneeded stuff out of index.html
+- minor styling changes here and there
+- remove font-awesome
+- remove some scripts that appear to no longer be needed
 
 
 1.1.0 (2021-08-06)
