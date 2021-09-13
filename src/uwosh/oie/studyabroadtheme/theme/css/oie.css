@@ -1043,12 +1043,7 @@ input[type="text"].oie-search-field {
 }
 .search-program-title {
   display: inline-block;
-  height: 50px;
-}
-.image-container {
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
+  height: fit-content;
 }
 .search-program-image {
   width: 100%;
@@ -1062,12 +1057,179 @@ input[type="text"].oie-search-field {
 }
 .search-program-description {
   display: inline-block;
-  height: 70px;
+  height: fit-content;
   overflow: hidden;
 }
-.search-program-view .program-margin {
-  margin: 5px 5px 10px;
-  padding: 8px;
+.program-group {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas:
+    'title-1        title-2        title-3        title-4        title-5        title-6'
+    'image-1        image-2        image-3        image-4        image-5        image-6'
+    'description-1  description-2  description-3  description-4  description-5  description-6'
+    'link-1         link-2         link-3         link-4         link-5         link-6'
+    'filler         filler         filler         filler         filler         filler'
+    'title-7        title-8        title-9        title-10       title-11       title-12'
+    'image-7        image-8        image-9        image-10       image-11       image-12'
+    'description-7  description-8  description-9  description-10 description-11 description-12'
+    'link-7         link-8         link-9         link-10        link-11        link-12';
+  grid-template-rows: minmax(50px, auto) auto minmax(70px, auto) auto    25px    minmax(50px, auto) auto minmax(70px, auto) auto;
+}
+.search-program-view {
+  display: contents;
+}
+.search-program-title {
+  align-self: flex-start;
+}
+.search-program-title-1 {
+  grid-area: title-1;
+}
+.search-program-image-1 {
+  grid-area: image-1;
+}
+.search-program-description {
+  margin: 0;
+}
+.search-program-description-1 {
+  grid-area: description-1;
+}
+.search-program-link-1 {
+  grid-area: link-1;
+}
+.search-program-title-2 {
+  grid-area: title-2;
+}
+.search-program-image-2 {
+  grid-area: image-2;
+}
+.search-program-description-2 {
+  grid-area: description-2;
+}
+.search-program-link-2 {
+  grid-area: link-2;
+}
+.search-program-title-3 {
+  grid-area: title-3;
+}
+.search-program-image-3 {
+  grid-area: image-3;
+}
+.search-program-description-3 {
+  grid-area: description-3;
+}
+.search-program-link-3 {
+  grid-area: link-3;
+}
+.search-program-title-4 {
+  grid-area: title-4;
+}
+.search-program-image-4 {
+  grid-area: image-4;
+}
+.search-program-description-4 {
+  grid-area: description-4;
+}
+.search-program-link-4 {
+  grid-area: link-4;
+}
+.search-program-title-5 {
+  grid-area: title-5;
+}
+.search-program-image-5 {
+  grid-area: image-5;
+}
+.search-program-description-5 {
+  grid-area: description-5;
+}
+.search-program-link-5 {
+  grid-area: link-5;
+}
+.search-program-title-6 {
+  grid-area: title-6;
+}
+.search-program-image-6 {
+  grid-area: image-6;
+}
+.search-program-description-6 {
+  grid-area: description-6;
+}
+.search-program-link-6 {
+  grid-area: link-6;
+}
+.search-program-title-7 {
+  grid-area: title-7;
+}
+.search-program-image-7 {
+  grid-area: image-7;
+}
+.search-program-description-7 {
+  grid-area: description-7;
+}
+.search-program-link-7 {
+  grid-area: link-7;
+}
+.search-program-title-8 {
+  grid-area: title-8;
+}
+.search-program-image-8 {
+  grid-area: image-8;
+}
+.search-program-description-8 {
+  grid-area: description-8;
+}
+.search-program-link-8 {
+  grid-area: link-8;
+}
+.search-program-title-9 {
+  grid-area: title-9;
+}
+.search-program-image-9 {
+  grid-area: image-9;
+}
+.search-program-description-9 {
+  grid-area: description-9;
+}
+.search-program-link-9 {
+  grid-area: link-9;
+}
+.search-program-title-10 {
+  grid-area: title-10;
+}
+.search-program-image-10 {
+  grid-area: image-10;
+}
+.search-program-description-10 {
+  grid-area: description-10;
+}
+.search-program-link-10 {
+  grid-area: link-10;
+}
+.search-program-title-11 {
+  grid-area: title-11;
+}
+.search-program-image-11 {
+  grid-area: image-11;
+}
+.search-program-description-11 {
+  grid-area: description-11;
+}
+.search-program-link-11 {
+  grid-area: link-11;
+}
+.search-program-title-12 {
+  grid-area: title-12;
+}
+.search-program-image-12 {
+  grid-area: image-12;
+}
+.search-program-description-12 {
+  grid-area: description-12;
+}
+.search-program-link-12 {
+  grid-area: link-12;
 }
 .clear-button {
   float: right;

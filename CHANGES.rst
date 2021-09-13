@@ -5,7 +5,7 @@ Changelog
 1.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- use css grid for discover programs view results
 
 
 1.1.2 (2021-09-09)
