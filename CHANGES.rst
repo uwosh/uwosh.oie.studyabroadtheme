@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.3 (unreleased)
+1.1.3 (2021-09-13)
 ------------------
 
 - use css grid for discover programs view results
