@@ -5,7 +5,7 @@ Changelog
 1.1.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- format grid columns so they have consistent width when not all columns are full
 
 
 1.1.5 (2021-09-13)
