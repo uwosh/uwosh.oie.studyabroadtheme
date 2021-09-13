@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.6 (unreleased)
+1.1.6 (2021-09-13)
 ------------------
 
 - format grid columns so they have consistent width when not all columns are full
