@@ -467,7 +467,7 @@
   #content {
     margin: 0;
   }
-  #content a {
+  #content a :not(.page-link) {
     border-bottom: none !important;
   }
   #content a:hover,
