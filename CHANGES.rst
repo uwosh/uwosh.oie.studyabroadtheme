@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.4 (unreleased)
+1.1.4 (2021-09-13)
 ------------------
 
 - fix bottom-border missing on discover-programs pagination
