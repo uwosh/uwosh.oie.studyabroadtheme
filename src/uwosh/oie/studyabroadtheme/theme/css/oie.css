@@ -1067,18 +1067,28 @@ input[type="text"].oie-search-field {
   justify-content: center;
   align-items: center;
   grid-template-areas:
-    'title-1        title-2        title-3        title-4        title-5        title-6'
-    'image-1        image-2        image-3        image-4        image-5        image-6'
-    'description-1  description-2  description-3  description-4  description-5  description-6'
-    'link-1         link-2         link-3         link-4         link-5         link-6'
-    'filler         filler         filler         filler         filler         filler'
-    'title-7        title-8        title-9        title-10       title-11       title-12'
-    'image-7        image-8        image-9        image-10       image-11       image-12'
-    'description-7  description-8  description-9  description-10 description-11 description-12'
-    'link-7         link-8         link-9         link-10        link-11        link-12';
-  grid-template-rows: minmax(50px, auto) auto minmax(70px, auto) auto    25px    minmax(50px, auto) auto minmax(70px, auto) auto;
-}
-.search-program-view {
+    'title-1         title-2         title-3'
+    'image-1         image-2         image-3'
+    'description-1   description-2   description-3'
+    'link-1          link-2          link-3'
+    '......          ......          ......'
+    'title-4         title-5         title-6'
+    'image-4         image-5         image-6'
+    'description-4   description-5   description-6'
+    'link-4          link-5          link-6'
+    '......          ......          ......'
+    'title-7         title-8         title-9'
+    'image-7         image-8         image-9'
+    'description-7   description-8   description-9'
+    'link-7          link-8          link-9'
+    '......          ......          ......'
+    'title-10        title-11        title-12'
+    'image-10        image-11        image-12'
+    'description-10  description-11  description-12'
+    'link-10         link-11         link-12';
+    grid-template-rows:  minmax(50px, auto) auto minmax(70px, auto) auto   25px   minmax(50px, auto) auto minmax(70px, auto) auto   25px   minmax(50px, auto) auto minmax(70px, auto) auto   25px   minmax(50px, auto) auto minmax(70px, auto) auto;
+  }
+  .search-program-view {
   display: contents;
 }
 .search-program-title {
@@ -1339,4 +1349,39 @@ a.state-private {
 }
 a.state-private:hover {
     color: #c9506a !important;
+}
+@media screen and (min-width: 768px) {
+  .program-group {
+    grid-template-areas:
+      'title-1         title-2          title-3          title-4'
+      'image-1         image-2          image-3          image-4'
+      'description-1   description-2    description-3    description-4'
+      'link-1          link-2           link-3           link-4'
+      '......          ......           ......           ......'
+      'title-5         title-6          title-7          title-8'
+      'image-5         image-6          image-7          image-8'
+      'description-5   description-6    description-7    description-8'
+      'link-5          link-6           link-7           link-8'
+      '......          ......           ......           ......'
+      'title-9         title-10         title-11         title-12'
+      'image-9         image-10         image-11         image-12'
+      'description-9   description-10   description-11   description-12'
+      'link-9          link-10          link-11          link-12';
+    grid-template-rows:  minmax(50px, auto) auto minmax(70px, auto) auto   25px   minmax(50px, auto) auto minmax(70px, auto) auto   25px   minmax(50px, auto) auto minmax(70px, auto) auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .program-group {
+    grid-template-areas:
+      'title-1        title-2        title-3        title-4        title-5        title-6'
+      'image-1        image-2        image-3        image-4        image-5        image-6'
+      'description-1  description-2  description-3  description-4  description-5  description-6'
+      'link-1         link-2         link-3         link-4         link-5         link-6'
+      '......         ......         ......         ......         ......         ......'
+      'title-7        title-8        title-9        title-10       title-11       title-12'
+      'image-7        image-8        image-9        image-10       image-11       image-12'
+      'description-7  description-8  description-9  description-10 description-11 description-12'
+      'link-7         link-8         link-9         link-10        link-11        link-12';
+    grid-template-rows: minmax(50px, auto) auto minmax(70px, auto) auto   25px   minmax(50px, auto) auto minmax(70px, auto) auto;
+  }
 }

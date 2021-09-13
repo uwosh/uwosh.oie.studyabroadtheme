@@ -5,7 +5,7 @@ Changelog
 1.1.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- responsive grid for program search results
 
 
 1.1.4 (2021-09-13)
