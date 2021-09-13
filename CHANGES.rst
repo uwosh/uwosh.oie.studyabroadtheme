@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.5 (unreleased)
+1.1.5 (2021-09-13)
 ------------------
 
 - responsive grid for program search results
