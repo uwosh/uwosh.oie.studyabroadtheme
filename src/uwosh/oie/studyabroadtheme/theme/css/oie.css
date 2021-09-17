@@ -1251,12 +1251,14 @@ input[type="text"].oie-search-field {
 }
 
 /*program/apply*/
-.oie-apply-field {
+#oie-apply input.oie-apply-field {
   margin: 10px;
-  width: 100%;
+  width: calc(100% - 20px);
 }
 .apply-button {
   float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 /*program/reporting*/

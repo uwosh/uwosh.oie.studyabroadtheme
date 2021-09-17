@@ -5,7 +5,7 @@ Changelog
 1.1.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- tweak input widths
 
 
 1.1.6 (2021-09-13)
