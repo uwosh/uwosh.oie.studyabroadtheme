@@ -1390,3 +1390,13 @@ a.state-private:hover {
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
+dt.bigger-dt,
+dd.bigger-dd {
+  font-size: 18px;
+}
+
+.portalMessage a.bold-anchor {
+  font-weight: bold;
+  text-decoration: underline;
+}

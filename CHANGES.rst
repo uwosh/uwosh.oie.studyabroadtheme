@@ -5,7 +5,7 @@ Changelog
 1.1.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- change submit message styling
 
 
 1.1.7 (2021-09-17)
