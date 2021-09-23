@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.8 (unreleased)
+1.1.8 (2021-09-23)
 ------------------
 
 - change submit message styling
