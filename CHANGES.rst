@@ -5,8 +5,7 @@ Changelog
 1.1.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- minor styling tweak on form labels
 
 1.1.8 (2021-09-23)
 ------------------

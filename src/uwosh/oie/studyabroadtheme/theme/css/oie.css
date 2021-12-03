@@ -1400,3 +1400,7 @@ dd.bigger-dd {
   font-weight: bold;
   text-decoration: underline;
 }
+
+.option .label {
+  font-size: 100%;
+}
