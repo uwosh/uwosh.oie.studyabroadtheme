@@ -10,7 +10,7 @@
     "grunt-contrib-less": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-postcss": "^0.8.0",
-    "lodash": ">=4.17.5",
+    "lodash": ">=4.17.21",
     "minimatch": ">=3.0.2",
     "pixrem": "^3.0.2"
   }
