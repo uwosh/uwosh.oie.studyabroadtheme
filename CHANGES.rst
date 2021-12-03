@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.9 (unreleased)
+1.1.9 (2021-12-03)
 ------------------
 
 - minor styling tweak on form labels
